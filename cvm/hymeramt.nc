@@ -2,7 +2,7 @@
 ( Copyright 2005 by John Johnson. See readme.txt for licensing terms. )
 
 ( This file generated from the board /home/mattvenn/eagle-circuit-designs/cvm/hymera.brd )
-( This file generated 30/01/2012 17:06 )
+( This file generated 30/01/2012 17:15 )
 
 G21
 
