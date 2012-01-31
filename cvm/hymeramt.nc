@@ -2,7 +2,7 @@
 ( Copyright 2005 by John Johnson. See readme.txt for licensing terms. )
 
 ( This file generated from the board /home/mattvenn/eagle-circuit-designs/cvm/hymera.brd )
-( This file generated 30/01/2012 17:15 )
+( This file generated 31/01/2012 16:32 )
 
 G21
 
@@ -12,12 +12,18 @@ G00 X0 Y0
 M03
 G04 P3.000000
 G00 Z2.0000 
-G00 X2.0000 Y36.0000 
+G00 X1.4000 Y41.4000 
 G01 Z-2.0000 F600.00 
-G01 X171.0000 Y36.0000 
-G01 X171.0000 Y2.0000 
-G01 X2.0000 Y2.0000 
-G01 X2.0000 Y36.0000 
+G01 X110.4000 Y41.4000 
+G01 X110.4000 Y1.3000 
+G00 Z2.0000 
+G00 X1.4000 Y1.3000 
+G01 Z-2.0000 F600.00 
+G01 X1.4000 Y41.4000 
+G00 Z2.0000 
+G00 X1.4000 Y1.3000 
+G01 Z-2.0000 F600.00 
+G01 X110.4000 Y1.3000 
 (File Footer)
 G00 Z10.0000 
 M05
