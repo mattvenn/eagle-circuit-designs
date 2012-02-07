@@ -2,7 +2,7 @@
 ( Copyright 2005 by John Johnson. See readme.txt for licensing terms. )
 
 ( This file generated from the board /home/mattvenn/eagle-circuit-designs/pcb miller test/realtime breakout.brd )
-( This file generated 16/01/2012 11:38 )
+( This file generated 07/02/2012 14:22 )
 
 G21
 
@@ -12,12 +12,12 @@ G00 X0 Y0
 M03
 G04 P3.000000
 G00 Z2.0000 
-G00 X2.5400 Y27.9400 
-G01 Z-2.0000 F400.00 
-G01 X43.1800 Y27.9400 
-G01 X43.1800 Y2.5400 
-G01 X2.5400 Y2.5400 
-G01 X2.5400 Y27.9400 
+G00 X-1.2700 Y31.7500 
+G01 Z-2.0000 F600.00 
+G01 X46.9900 Y31.7500 
+G01 X46.9900 Y-1.2700 
+G01 X-1.2700 Y-1.2700 
+G01 X-1.2700 Y31.7500 
 (File Footer)
 G00 Z10.0000 
 M05
