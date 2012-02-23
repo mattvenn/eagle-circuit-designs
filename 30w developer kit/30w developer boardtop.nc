@@ -2,7 +2,7 @@
 ( Copyright 2005 by John Johnson. See readme.txt for licensing terms. )
 
 ( This file generated from the board /home/mattvenn/eagle-circuit-designs/30w developer kit/30w developer board.brd )
-( This file generated 23/02/2012 10:14 )
+( This file generated 23/02/2012 10:17 )
 
 G21
 
