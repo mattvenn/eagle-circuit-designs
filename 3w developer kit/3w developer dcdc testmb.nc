@@ -2,7 +2,7 @@
 ( Copyright 2005 by John Johnson. See readme.txt for licensing terms. )
 
 ( This file generated from the board /home/mattvenn/eagle-circuit-designs/3w developer kit/3w developer dcdc test.brd )
-( This file generated 12/03/2012 15:02 )
+( This file generated 12/03/2012 16:29 )
 
 G21
 
@@ -12,12 +12,12 @@ G00 X0 Y0
 M03
 G04 P3.000000
 G00 Z2.0000 
-G00 X-1.1000 Y36.5000 
+G00 X-1.1000 Y41.5000 
 G01 Z-2.0000 F600.00 
-G01 X-70.1000 Y36.5000 
+G01 X-70.1000 Y41.5000 
 G01 X-70.1000 Y1.5000 
 G01 X-1.1000 Y1.5000 
-G01 X-1.1000 Y36.5000 
+G01 X-1.1000 Y41.5000 
 (File Footer)
 G00 Z10.0000 
 M05
