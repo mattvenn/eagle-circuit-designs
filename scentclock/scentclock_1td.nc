@@ -2,7 +2,7 @@
 ( Copyright 2005 by John Johnson. See readme.txt for licensing terms. )
 
 ( This file generated from the board /home/mattvenn/eagle-circuit-designs/scentclock/scentclock_1.brd )
-( This file generated 16/01/2012 13:51 )
+( This file generated 16/01/2012 15:23 )
 
 ( T01 0.609600 )
 ( T02 0.812800 )
