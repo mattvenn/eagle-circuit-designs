@@ -324,10 +324,11 @@ UsedLibrary="/home/mattvenn/eagle-circuit-designs/libraries/matt.lbr"
 UsedLibrary="/home/mattvenn/eagle-circuit-designs/libraries/matt-transistor-power.lbr"
 UsedLibrary="/home/mattvenn/eagle-circuit-designs/libraries/matt transistor-fet.lbr"
 UsedLibrary="/home/mattvenn/eagle-circuit-designs/libraries/matt testpad.lbr"
+UsedLibrary="/usr/share/eagle/lbr/diode.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="510 81 1109 480"
+Loc="543 171 1142 570"
 State=1
 Number=0
 
