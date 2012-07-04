@@ -2,7 +2,7 @@
 import sys
 import shutil
 import os
-fileTypes = [ "dri", "drd", "drl", "GBL", "GBO", "GBS", "gpi", "GTL", "GTO", "GTP", "GTS", "TXT" ]
+fileTypes = [ "GM1", "dri", "drd", "drl", "GBL", "GBO", "GBS", "gpi", "GTL", "GTO", "GTP", "GTS", "TXT" ]
 
 if len(sys.argv)<2:
 	print "need name of file"
