@@ -1,0 +1,6 @@
+Mfg Part Num	Mfg Name	VID	Vendor Part Num	Description
+EXV227M016A9HAA	KEMET	farnell	2069171	16v 220uf smd cap 8mm
+EEEFT0J221AR	panasonic	farnell	2065953	6.3v 220uf smd cap 5.8mm
+39301020	molex	farnell	9963367	2way minifit jr
+39301040	molex	farnel	9963375	4way minifit jr
+MAX232ECWE+	MAXIM INTEGRATED PRODUCTS	farnell	9724435	IC, TRANSCEIVER, SMD, SOIC16,
