@@ -10,7 +10,7 @@ if len(sys.argv)<2:
 
 fileStart = sys.argv[1]
 dest = "./toFab/"
-print "using", fileStart
+print( "using", fileStart)
 for fileType in fileTypes: 
     src = fileStart + "." + fileType
     try:
