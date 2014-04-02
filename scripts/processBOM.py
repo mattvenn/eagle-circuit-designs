@@ -2,7 +2,7 @@
 import sys
 import csv
 if len(sys.argv)<2:
-    print >>sys.stderr, "need bom file"
+    print >>sys.stderr, "need bom file, optional quantity"
     exit( 1)
 bom_file = sys.argv[1]
 if len(sys.argv) == 3:
