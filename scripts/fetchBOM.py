@@ -4,7 +4,7 @@ import sys
 import csv
 
 
-from BeautifulSoup import BeautifulSoup
+#from BeautifulSoup import BeautifulSoup
 if len(sys.argv)<2:
     print "need part num"
     exit( 1)
@@ -24,8 +24,9 @@ br.open("http://uk.farnell.com")
 br.select_form(name="textsearch")
 br["searchTerms"] = part_num
 body = br.submit().read()
-soup = BeautifulSoup(body)
-title = soup.title.string.strip()
+title = br.title()
+#soup = BeautifulSoup(body)
+#title = soup.title.string.strip()
 details = title.split('|')[0].split(' - ')
 manu_part = details[0]
 manu = details[1]
