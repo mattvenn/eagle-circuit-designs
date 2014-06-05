@@ -14,9 +14,7 @@ I made use of the following in the design.
 
 ## Spindle controller
 
-Thanks to Klaas for a great write up on a PID cnc router controller of which this project is mostly a copy of.
-
-[spindle controller](https://sites.google.com/site/klaasdc/cnc-router/spindle-controller)
+Thanks to Klaas for a great write up on a [cnc router controller](https://sites.google.com/site/klaasdc/cnc-router/spindle-controller) of which this project is mostly a copy of.
 
 ## Triac Block
 
