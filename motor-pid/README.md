@@ -2,11 +2,19 @@
 
 An arduino shield that makes it easy to detect [zero crossings](http://en.wikipedia.org/wiki/Zero_cross_circuit) on mains AC, and control a triac with [phase control](http://playground.arduino.cc/Main/ACPhaseControl)
 
-# Circuit board and parts
+# Circuit board
 
-* Eagle schematic in the repo
+* [Schematic](schematic.png)
+* Eagle schematic/board in the repo
 * order boards from [oshpark](http://oshpark.com/shared_projects/XGqh7Sy8)
-* BOM in the repo
+
+# BOM
+
+The [BOM](bom.txt) is in tab separated form, with Farnell part numbers. Missing parts are standard, or don't matter:
+
+* Diodes are forming a low current bridge rectifier
+* Caps - follow voltage and polarisation.
+* Reistors - power rating 1/8W unless specified.
 
 # Useful resources
 
