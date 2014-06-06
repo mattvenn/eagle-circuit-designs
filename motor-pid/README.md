@@ -38,3 +38,5 @@ Thanks to Mic at [wemakethings.net](http://wemakethings.net) for his work on the
 ## Zero crossing circuit
 
 * [Zero crossing circuit](http://www.dextrel.net/diyzerocrosser.htm)
+
+If I do a second version I'll reduce part count by using an [AC input opto coupler](http://www.vishay.com/docs/83608/h11aa1.pdf) for the zero crossing sensor.
