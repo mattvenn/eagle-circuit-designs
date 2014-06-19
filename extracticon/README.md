@@ -1,8 +1,8 @@
-# Documents
+# References
 
 * [current sensing](http://openenergymonitor.org/emon/buildingblocks/ct-sensors-interface)
 
-# todo
+# Todo
 
 * remove tvalues for pcb production
 * mitre corners
@@ -14,9 +14,17 @@
 * bom
 * heatsink mounts?
 
-#fixes from first rev
+# Code
 
-* run led isn't connected to chip because of naming
+check [the README](code/README.md)
+
+# Changelog
+
+# v2 
+
+* fix run led - wasn't connected to chip because of naming
+* added a temp sensor
+* 2 layer board, with ground planes
 
 # License
 
