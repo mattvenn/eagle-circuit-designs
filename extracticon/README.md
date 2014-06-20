@@ -13,6 +13,8 @@
 * sort open hardware logo - look at oshpark email for resolution
 * add temperature? lm335 (got lots of)
 * bom
+    * 10k divider
+    * 18R burden
 * heatsink mounts?
 
 # Code
