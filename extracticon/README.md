@@ -12,9 +12,6 @@
 * label all headers
 * sort open hardware logo - look at oshpark email for resolution
 * add temperature? lm335 (got lots of)
-* bom
-    * 10k divider
-    * 18R burden
 * heatsink mounts?
 
 # Code
@@ -26,12 +23,12 @@ check [the README](code/README.md)
 # v2 
 
 * fix run led - wasn't connected to chip because of naming
-* added a temp sensor 
+* added a temp sensor lm335
 * 2 layer board, with ground planes
 
 # v2 todo
 
-* switch to temp sense lm335
+* check spi programming works with leds/triacs on pins
 
 # License
 
