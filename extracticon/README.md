@@ -11,7 +11,7 @@
 * silk screen layout
 * label all headers
 * sort open hardware logo - look at oshpark email for resolution
-* add temperature?
+* add temperature? lm335 (got lots of)
 * bom
 * heatsink mounts?
 
@@ -24,8 +24,12 @@ check [the README](code/README.md)
 # v2 
 
 * fix run led - wasn't connected to chip because of naming
-* added a temp sensor
+* added a temp sensor 
 * 2 layer board, with ground planes
+
+# v2 todo
+
+* switch to temp sense lm335
 
 # License
 
