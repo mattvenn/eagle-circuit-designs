@@ -1,6 +1,7 @@
 # References
 
 * [current sensing](http://openenergymonitor.org/emon/buildingblocks/ct-sensors-interface)
+* [using tiny44/45 with arduino](http://highlowtech.org/?p=1695)
 
 # Todo
 
