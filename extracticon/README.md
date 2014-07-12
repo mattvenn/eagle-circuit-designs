@@ -14,6 +14,13 @@
 * add temperature? lm335 (got lots of)
 * heatsink mounts?
 
+# Testing
+
+55C running a 2kw fan heater
+
+![front](IR_front.jpg)
+![side](IR_side.jpg)
+
 # Code
 
 check [the README](code/README.md)
