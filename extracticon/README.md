@@ -19,6 +19,7 @@
 55C running a 2kw fan heater
 
 ![front](IR_front.jpg)
+
 ![side](IR_side.jpg)
 
 # Code
