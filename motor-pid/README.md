@@ -8,6 +8,13 @@ An arduino shield that makes it easy to detect [zero crossings](http://en.wikipe
 * Eagle schematic/board in the repo
 * order boards from [oshpark](http://oshpark.com/shared_projects/XGqh7Sy8)
 
+# Todo
+
+* opto is wrong way round (on silkscreen) as output is in the live side and input on the logic side.
+* cap input is only up to 16v or so, not 240
+* spaces for most R are too narrow
+* add a cap on the zc input, got a bit of triac switching noise on it
+
 # BOM
 
 The [BOM](bom.txt) is in tab separated form, with Farnell part numbers. Missing parts are standard, or don't matter:
