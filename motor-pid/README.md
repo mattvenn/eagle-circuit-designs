@@ -46,7 +46,7 @@ Thanks to Mic at [wemakethings.net](http://wemakethings.net) for his work on the
 
 The circuit has been tested with a 50W filament light and the target 500W router motor. Both perform well and are controlled smoothly with the ZC circuit below.
 
-![mains after triac switching, and control signal](triac_shape.jpg)
+![mains after triac switching, and control signal](triac_shape.jpg "mains after triac switching, and control signal")
 
 ## Zero crossing circuit
 
@@ -72,13 +72,13 @@ Additionally:
 
 Here are some scope pics of the zero crosser in action.
 
-![capacitor charging - measured between top of cap and bottom of diode](cap_charge.jpg)
+![capacitor charging - measured between top of cap and bottom of diode](cap_charge.jpg "capacitor charging - measured between top of cap and bottom of diode")
 
-![voltage across diode (without transistor)](diode_v.jpg)
+![voltage across diode (without transistor)](diode_v.jpg "voltage across diode (without transistor)")
 
-![mains voltage and zero crossing pulse](sine_and_zc.jpg)
+![mains voltage and zero crossing pulse](sine_and_zc.jpg "mains voltage and zero crossing pulse")
 
-![mains voltage and zero crossing pulse - magnified](sine_and_zc_zoom.jpg)
+![mains voltage and zero crossing pulse - magnified](sine_and_zc_zoom.jpg "mains voltage and zero crossing pulse - magnified")
 
 
 
