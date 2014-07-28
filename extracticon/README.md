@@ -41,7 +41,7 @@ check [the README](code/README.md)
 
 # v2 todo
 
-* check spi programming works with leds/triacs on pins
+* check spi programming works with leds/triacs on pins - yes
 
 # License
 
