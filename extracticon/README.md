@@ -14,6 +14,11 @@
 * add temperature? lm335 (got lots of)
 * heatsink mounts?
 
+V3
+
+* button 
+* power led from rails
+
 # Testing
 
 55C running a 2kw fan heater
