@@ -14,6 +14,8 @@ An arduino shield that makes it easy to detect [zero crossings](http://en.wikipe
 * cap input is only up to 16v or so, not 240
 * spaces for most R are too narrow
 * add a cap on the zc input, got a bit of triac switching noise on it
+* space for contrast variable r is way too small
+* supply for lcd backlight?
 
 # BOM
 
@@ -22,6 +24,8 @@ The [BOM](bom.txt) is in tab separated form, with Farnell part numbers. Missing 
 * Diodes are forming a low current bridge rectifier
 * Caps - follow voltage and polarisation.
 * Reistors - power rating 1/8W unless specified.
+
+* Opto sensor is [tcrt5000](http://www.vishay.com/docs/83760/tcrt5000.pdf)
 
 # Useful resources
 
