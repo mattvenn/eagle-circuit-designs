@@ -1,4 +1,4 @@
-\ ![Workshop](header.jpg)
+\![Workshop](header.jpg)
 * [workshop presentation](http://bit.ly/shrimp-pcb)
 * [this document](http://bit.ly/shrimp-links)
 * [the shrimp](http://shrimping.it/blog/shrimp/)
