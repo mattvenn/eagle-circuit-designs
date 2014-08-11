@@ -1,4 +1,4 @@
-\![Workshop](header.jpg)
+![Workshop](header.jpg)
 
 # Workshop links
 
@@ -12,6 +12,10 @@
 * Learn how to create the files required for manufacture.
 * Learn how to check the design files.
 * Place an order for our PCBS with http://oshpark.com.
+
+Here's one I made earlier
+
+![Board](board-top.jpg)
 
 # PCB Basics
 
@@ -43,12 +47,14 @@ Here's the baite USB to serial TTY module: http://www.aliexpress.com/snapshot/60
 * Use the net tool (not wire) for linking components.
 * Make sure that the TX of the USB module connects to the RX of the Arduino and vica versa for the RX.
 
+# Board Layout
 
-# Board
+We'll be mostly following this guide from sparkfun: https://learn.sparkfun.com/tutorials/using-eagle-board-layout
 
-* We'll be mostly following this guide from sparkfun: https://learn.sparkfun.com/tutorials/using-eagle-board-layout
-* Use this CAM file from sparkfun: https://dlnmh9ip6v2uc.cloudfront.net/assets/c/1/9/8/2/52056b19757b7f795b2a561c.zip
+Move the components around until you've got them all fitted well. You want the decoupling capacitor (C3) close to the chip.
+
 * Optionally use this DRU file from sparkfun: https://dlnmh9ip6v2uc.cloudfront.net/assets/1/e/3/2/0/52054e25757b7f44119e09da.zip
+* Use this CAM file from sparkfun: https://dlnmh9ip6v2uc.cloudfront.net/assets/c/1/9/8/2/52056b19757b7f795b2a561c.zip
 * Check your board with a web based 3d viewer: http://mayhewlabs.com/webGerber/ 
 * Then upload a zip of your gerbers to http://oshpark.com
 
