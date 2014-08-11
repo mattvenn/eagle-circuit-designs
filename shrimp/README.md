@@ -23,8 +23,8 @@ We'll be mostly following this guide from sparkfun: https://learn.sparkfun.com/t
 
 You'll need to install the Adafruit eagle library to get access to the Arduino shield layout:
 
-    * Eagle Version 5: https://github.com/adafruit/Adafruit-Eagle-Library/archive/6042b7efe7b0f2f9511c54ebdba88d8e4de44aa2.zip
-    * Eagle Version 6: https://github.com/adafruit/Adafruit-Eagle-Library/archive/master.zip
+* Eagle Version 5: https://github.com/adafruit/Adafruit-Eagle-Library/archive/6042b7efe7b0f2f9511c54ebdba88d8e4de44aa2.zip
+* Eagle Version 6: https://github.com/adafruit/Adafruit-Eagle-Library/archive/master.zip
 
 Here's the schematic direct from the shrimp website: http://shrimping.it/blog/shrimp/shrimpduino_schem/, and I've made a version of this that includes the shield:
 
