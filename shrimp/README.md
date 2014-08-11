@@ -47,24 +47,55 @@ Here's the baite USB to serial TTY module: http://www.aliexpress.com/snapshot/60
 * Use the net tool (not wire) for linking components.
 * Make sure that the TX of the USB module connects to the RX of the Arduino and vica versa for the RX.
 
+## Checking the schematic
+
+Run an Electrical Rule Check (ERC) and read through the errors. Some we can ignore but some may flag serious issues.
+
 # Board Layout
 
 We'll be mostly following this guide from sparkfun: https://learn.sparkfun.com/tutorials/using-eagle-board-layout
 
 Move the components around until you've got them all fitted well. You want the decoupling capacitor (C3) close to the chip.
 
-* Optionally use this DRU file from sparkfun: https://dlnmh9ip6v2uc.cloudfront.net/assets/1/e/3/2/0/52054e25757b7f44119e09da.zip
-* Use this CAM file from sparkfun: https://dlnmh9ip6v2uc.cloudfront.net/assets/c/1/9/8/2/52056b19757b7f795b2a561c.zip
-* Check your board with a web based 3d viewer: http://mayhewlabs.com/webGerber/ 
-* Then upload a zip of your gerbers to http://oshpark.com
+Once you've got the components in the right place, route the wires.
+
+## Checking the board
+
+Run a Design Rule Check (DRC) to check your board's OK. As before you'll probably get a lot of errors and warnings. We need to know which we can ignore and which we have to fix.
+
+The default DRC rules are fine, but you can optionally use these DRC rules from sparkfun: https://dlnmh9ip6v2uc.cloudfront.net/assets/1/e/3/2/0/52054e25757b7f44119e09da.zip
+
+It's also possible to get a DRC ruleset for hand making boards (ensures bigger pads and traces etc).
+
+# Gerber generation
+
+Now the board is done, we generate the files that the machines will use to create the board.
+
+Download this CAM file from sparkfun: https://dlnmh9ip6v2uc.cloudfront.net/assets/c/1/9/8/2/52056b19757b7f795b2a561c.zip
+
+Run the CAM processor and select the spark fun CAM file. Click 'process job'and have a look in your project directory for the files. These are the most important:
+
+* GBL Bottom Copper
+* GTL Top Copper
+ 
+* GBO Bottom Silkscreen
+* GTO Top Silkscreen
+ 
+* GBS Bottom Soldermask
+* GTS Top Soldermask
+ 
+* TXT Drill File
+* GML Mill Layer
+
+You can check your board with a web based 3d viewer: http://mayhewlabs.com/webGerber/ 
+
+Have a look at the OSHPark guidelines: https://oshpark.com/guidelines
+
+Then upload a zip of your gerbers to http://oshpark.com
 
 ## Things to watch out for
 
 * OSHPark requires something on all layers (including the bottom silk screen), so put something on there before uploading.
-
-# Ordering PCBs
-
-* Good overview of lots of services by @boldport: http://boldport.blogspot.com.es/2014/02/so-you-want-to-manufacture-your-printed.html
 
 ## OSHPark pricing
 
@@ -75,10 +106,13 @@ Move the components around until you've got them all fitted well. You want the d
 * so a set of 3 x 5.6 square inch boards (size of the Arduino) would be £17.25
 * https://oshpark.com/pricing
 
+# Ordering PCBs from other places
+
+Good overview of lots of services by @boldport: http://boldport.blogspot.com.es/2014/02/so-you-want-to-manufacture-your-printed.html
 
 # Parts and building
 
-* http://bit.ly/shrimp-pcb-bom
+After your board arrives, here's a BOM (bill of materials) if your part numbers match the ones I used in the schematic above. http://bit.ly/shrimp-pcb-bom
 
 # Even More links
 
