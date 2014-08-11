@@ -3,8 +3,15 @@
 # Workshop links
 
 * this document: http://bit.ly/shrimp-links
-* workshop presentation: http://bit.ly/shrimp-pcb
 * shrimp website: http://shrimping.it/blog/shrimp/
+
+# Aim!
+
+* To learn enough Eagle to translate a picture of a schematic (circuit diagram) into a schematic in Eagle.
+* To create a board based on the schematic, and do the layout.
+* Learn how to create the files required for manufacture.
+* Learn how to check the design files.
+* Place an order for our PCBS with http://oshpark.com.
 
 # PCB Basics
 
