@@ -15,7 +15,7 @@
 
 Here's one I made earlier
 
-![Board](board-top.jpg)
+![Board](top-photo.jpg)
 
 # PCB Basics
 
