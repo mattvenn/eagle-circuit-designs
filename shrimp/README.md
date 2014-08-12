@@ -71,9 +71,9 @@ It's also possible to get a DRC ruleset for hand making boards (ensures bigger p
 
 Now the board is done, we generate the files that the machines will use to create the board.
 
-Download this CAM file from sparkfun: https://dlnmh9ip6v2uc.cloudfront.net/assets/c/1/9/8/2/52056b19757b7f795b2a561c.zip
+Download this [CAM file](sfe-gerb274x.cam)
 
-Run the CAM processor and select the spark fun CAM file. Click 'process job'and have a look in your project directory for the files. These are the most important:
+From the board view, run the CAM processor and select the downloaded CAM file. Click 'process job'and have a look in your project directory for the files. These are the most important:
 
 * GBL Bottom Copper
 * GTL Top Copper
