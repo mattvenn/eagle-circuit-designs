@@ -3,6 +3,7 @@
 # Workshop links
 
 * this document: http://bit.ly/shrimp-links
+* [workshop handout](https://github.com/mattvenn/eagle-circuit-designs/blob/master/shrimp/handout.pdf?raw=true)
 * shrimp website: http://shrimping.it/blog/shrimp/
 
 # Aim!
@@ -13,7 +14,7 @@
 * Learn how to check the design files.
 * Place an order for our PCBS with http://oshpark.com.
 
-Here's one I made earlier
+Here's one I made earlier!
 
 ![Board](top_photo.jpg)
 
@@ -89,6 +90,8 @@ From the board view, run the CAM processor and select the downloaded CAM file. C
 
 You can check your board with a web based 3d viewer: http://mayhewlabs.com/webGerber/ 
 
+You can also use an offline gerber viewer like: http://sourceforge.net/projects/gerbv/ (Linux only).
+
 Have a look at the OSHPark guidelines: https://oshpark.com/guidelines
 
 Then upload a zip of your gerbers to http://oshpark.com
@@ -113,6 +116,8 @@ Good overview of lots of services by @boldport: http://boldport.blogspot.com.es/
 # Parts and building
 
 After your board arrives, here's a BOM (bill of materials) if your part numbers match the ones I used in the schematic above. http://bit.ly/shrimp-pcb-bom
+
+And here's a page that shows what each component looks like (Thanks Cefn at shrimping.it): http://shrimping.it/blog/shrimp-pcb-parts/
 
 # Even More links
 
