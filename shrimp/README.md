@@ -31,7 +31,7 @@ You'll need to install the Adafruit eagle library to get access to the Arduino s
 * Eagle Version 5: https://github.com/adafruit/Adafruit-Eagle-Library/archive/6042b7efe7b0f2f9511c54ebdba88d8e4de44aa2.zip
 * Eagle Version 6: https://github.com/adafruit/Adafruit-Eagle-Library/archive/master.zip
 
-Here's the schematic direct from the shrimp website: http://shrimping.it/blog/shrimp/shrimpduino_schem/, and I've made a version of this that includes the shield:
+Here's the schematic direct from the shrimp website: http://shrimping.it/blog/shrimp/shrimpduino_schem/, and I've made a version of this that includes the shield (see reverse of the handout):
 
 ![schematic](schematic.png)
 
@@ -121,11 +121,27 @@ And here's a page that shows what each component looks like (Thanks Cefn at shri
 
 # Even More links
 
-* Good reference guide from a different workshop: http://psas.pdx.edu/EagleCadWorkshopNotes/#index19h1
+## Tutorials
+
 * All sparkfun's Eagle tutorials: https://learn.sparkfun.com/tutorials/tags/eagle
 * Couple of good instructables on creating schematics and boards:
     * http://www.instructables.com/id/Draw-Electronic-Schematics-with-CadSoft-EAGLE/
     * http://www.instructables.com/id/Turn-your-EAGLE-schematic-into-a-PCB/
 
-# PCB License
+## Reference
+
+* Good reference guide from a different workshop: http://psas.pdx.edu/EagleCadWorkshopNotes/#index19h1
+
+## Eagle Extensions
+
+* Python extension: https://github.com/rmawatson/PyEagle
+* Lots of ULPs: http://web.cadsoft.de/cgi-bin/download.pl?page=/home/cadsoft/html_public/demo.htm&dir=eagle/userfiles/ulp
+
+## Other PCB Cad tools
+
+* Design Spark: http://www.rs-online.com/designspark/electronics/eng/page/designspark-pcb-home-page
+* KiCad: http://www.kicad-pcb.org/display/KICAD/KiCad+EDA+Software+Suite 
+
+# ShrimpPCB License
+
 * This hardware is licensed under the [CERN open hardware license 1.2](http://www.ohwr.org/attachments/2388/cern_ohl_v_1_2.txt), which also included in this repository.
