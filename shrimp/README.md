@@ -115,9 +115,11 @@ Good overview of lots of services by @boldport: http://boldport.blogspot.com.es/
 
 # Parts and building
 
-After your board arrives, here's a BOM (bill of materials) if your part numbers match the ones I used in the schematic above. http://bit.ly/shrimp-pcb-bom
+After your board arrives, you can order all the bits you need from the shrimp website: http://shrimping.it/blog/shrimp-pcb-parts/
 
-And here's a page that shows what each component looks like (Thanks Cefn at shrimping.it): http://shrimping.it/blog/shrimp-pcb-parts/
+If you want to order your own parts, here's a BOM (bill of materials) http://bit.ly/shrimp-pcb-bom
+
+In both cases, the part numbers will only match up if you've named the parts as I have in the schematic above.
 
 # Even More links
 
