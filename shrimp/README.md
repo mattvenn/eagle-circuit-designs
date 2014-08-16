@@ -26,7 +26,9 @@ Here's one I made earlier!
 
 We'll be mostly following this guide from sparkfun: https://learn.sparkfun.com/tutorials/using-eagle-schematic
 
-You'll need to install the Adafruit eagle library to get access to the Arduino shield layout:
+Here's a bill of materials (BOM) of the components I've used in the schematic: http://bit.ly/shrimp-pcb-bom
+I've included the library names of the components in the BOM to help you find them. The only non-standard component is
+the Arduino shield, which you'll need to install from Adafruit's eagle library:
 
 * Eagle Version 5: https://github.com/adafruit/Adafruit-Eagle-Library/archive/6042b7efe7b0f2f9511c54ebdba88d8e4de44aa2.zip
 * Eagle Version 6: https://github.com/adafruit/Adafruit-Eagle-Library/archive/master.zip
@@ -35,7 +37,7 @@ Here's the schematic direct from the shrimp website: http://shrimping.it/blog/sh
 
 ![schematic](schematic.png)
 
-Here's how the Arduino's pin numbers map to the real pin numbers of the Arduino chip: http://arduino.cc/en/Hacking/PinMapping168 (though this says it's the 168, it's the same for the 328)
+Here's how the Arduino's pin numbers map to the real pin numbers of the Arduino chip: http://arduino.cc/en/Hacking/PinMapping168 (though this says it's the 168, it's the same for the 328). We need this because pin 1 on the chip isn't pin 1 in the Arduino environment.
 
 And here's the datasheet of the Arduino chip (ATMega328): http://www.atmel.com/Images/doc8161.pdf
 
