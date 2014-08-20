@@ -50,7 +50,7 @@ Thanks to Mic at [wemakethings.net](http://wemakethings.net) for his work on the
 
 The circuit has been tested with a 50W filament light and the target 500W router motor. Both perform well and are controlled smoothly with the ZC circuit below.
 
-![mains after triac switching, and control signal](triac_shape.jpg "mains after triac switching, and control signal")
+![mains after triac switching, and ZC detect signal](triac_shape.jpg "mains after triac switching, and ZC detect signal")
 
 ## Zero crossing circuit
 

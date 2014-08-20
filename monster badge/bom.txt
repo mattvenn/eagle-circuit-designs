@@ -1,0 +1,2 @@
+battery 2064713
+switch 1201431 OS102011MA1QN1 (on page 6 of switch.pdf)
