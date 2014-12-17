@@ -21,8 +21,8 @@ with open(db,'r') as csvfile:
 br = mechanize.Browser()
 br.set_handle_robots(False)
 br.open("http://uk.farnell.com")
-br.select_form(name="textsearch")
-br["searchTerms"] = part_num
+br.select_form(name="CatalogSearchForm")
+br["st"] = part_num
 body = br.submit().read()
 title = br.title()
 #soup = BeautifulSoup(body)
