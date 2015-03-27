@@ -26,7 +26,8 @@ with open(bom_file,'r') as csvfile:
                 print >> sys.stderr, "bad row length: ", row
                 bad_rows+=1
             else:
-                print ', '.join([row[3],str(int(row[5])*quantity),row[4].replace(',','')])
+                comment = row[4].replace(',','')[0:30-13]
+                print ', '.join([row[3],str(int(row[5])*quantity),comment])
         else:
             bad_rows += 1
 print >>sys.stderr ,"processed %d rows with %d missing rows" % (rows,bad_rows)
